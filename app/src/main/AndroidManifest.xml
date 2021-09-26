@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.8Gate">
         <activity
+            android:name=".Calorie_calculator"
+            android:label="Calories Calculator"
+            android:parentActivityName=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".meal"
             android:exported="true" />
         <activity
