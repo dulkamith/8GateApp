@@ -10,9 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.8Gate">
         <activity
-            android:name=".LeanBodyMassCalculator"
-            android:exported="true"
-            android:parentActivityName=".body"/>
+
         <activity
             android:name=".meal"
             android:exported="true" />
