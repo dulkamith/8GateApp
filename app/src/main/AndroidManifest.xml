@@ -19,7 +19,8 @@
             android:exported="true" />
         <activity
             android:name=".habit"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Habit Tracker" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

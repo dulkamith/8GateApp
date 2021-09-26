@@ -9,14 +9,12 @@
         <entry key="app/src/main/res/drawable/ic_habit.xml" value="0.261025641025641" />
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.261025641025641" />
         <entry key="app/src/main/res/drawable/selector.xml" value="0.261025641025641" />
-        <entry key="app/src/main/res/layout/activity_body.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_habit.xml" value="0.24895833333333334" />
+
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.24895833333333334" />
         <entry key="app/src/main/res/layout/activity_lean_body_mass_calculator.xml" value="0.23369565217391305" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23489583333333333" />
         <entry key="app/src/main/res/layout/activity_meal.xml" value="0.24895833333333334" />
-        <entry key="app/src/main/res/layout/dropdown_item.xml" value="0.5" />
-        <entry key="app/src/main/res/layout/list_item.xml" value="0.16770833333333332" />
+
         <entry key="app/src/main/res/menu/menu_navigation.xml" value="0.24895833333333334" />
       </map>
     </option>
