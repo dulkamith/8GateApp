@@ -10,10 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.8Gate">
         <activity
-            android:name=".ProteinCal"
-            android:exported="true"
-            android:label="Protein Calculator"
-            android:parentActivityName=".meal"/>
+
         <activity
             android:name=".meal"
             android:exported="true" />
