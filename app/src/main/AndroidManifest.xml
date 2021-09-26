@@ -10,20 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.8Gate">
         <activity
-            android:name=".bmical"
-            android:exported="true"
-            android:label="Calculate BMI"
-            android:parentActivityName=".habit"/>
-        <activity
-            android:name=".updateweight"
-            android:exported="true"
-            android:label="Update Weight"
-            android:parentActivityName=".habit" />
-        <activity
-            android:name=".addweight"
-            android:exported="true"
-            android:label="Add Weight"
-            android:parentActivityName=".habit" />
+
         <activity
             android:name=".meal"
             android:exported="true" />
