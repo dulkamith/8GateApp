@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".LeanBodyMassCalculator">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lean Body Mass Calculator"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:paddingBottom="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight in Kg:"
+        android:layout_marginHorizontal="30dp"
+        />
+    <EditText
+        android:id="@+id/lWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:padding="12dp"
+        android:inputType="numberDecimal"
+        android:layout_marginVertical="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height in cm:"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="15dp"
+        />
+    <EditText
+        android:id="@+id/lHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:padding="12dp"
+        android:inputType="numberDecimal"
+        />
+    <Button
+        android:id="@+id/btnLean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="15dp"
+        android:onClick="calculateLean"
+        android:text="Calculate"
+        app:iconTint="#3F51B5"
+        app:rippleColor="#B33D3D" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Result:"
+        android:textSize="30sp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/lean_body_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#000"
+        />
+
+</LinearLayout>
